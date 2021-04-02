@@ -29,33 +29,3 @@ git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-subm
 * IO2D
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
   * This library must be built in a place where CMake `find_package` will be able to find it
-
-## Compiling and Running
-
-### Compiling
-To compile the project, first, create a `build` directory and change to that directory:
-```
-mkdir build && cd build
-```
-From within the `build` directory, then run `cmake` and `make` as follows:
-```
-cmake ..
-make
-```
-### Running
-The executable will be placed in the `build` directory. From within `build`, you can run the project as follows:
-```
-./OSM_A_star_search
-```
-Or to specify a map file:
-```
-./OSM_A_star_search -f ../<your_osm_file.osm>
-```
-
-## Testing
-
-The testing executable is also placed in the `build` directory. From within `build`, you can run the unit tests as follows:
-```
-./test
-```
-
