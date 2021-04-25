@@ -11,3 +11,5 @@ Second branch(master) was added with the OSMP Project.
 main branch was updated with a htop-like (Linux system monitor) project.
 
 main branch was update with a memory management chatbot, where you can ask questions about specific memory management topics on C++.
+
+main branch was updated with a concurrent programming project, stop light traffic simulator.
