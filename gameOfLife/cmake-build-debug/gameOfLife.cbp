@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gameOfLife"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\SDL2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gameOfLife">
+				<Option output="/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/gameOfLife" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.14_1/include/SDL2"/>
+					<Add directory="/Users/joaoespadaafonso/CLionProjects/gameOfLife/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 gameOfLife"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gameOfLife/fast">
+				<Option output="/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/gameOfLife" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.14_1/include/SDL2"/>
+					<Add directory="/Users/joaoespadaafonso/CLionProjects/gameOfLife/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 gameOfLife/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/joaoespadaafonso/CLionProjects/gameOfLife/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/joaoespadaafonso/CLionProjects/gameOfLife/controller.cpp">
+			<Option target="gameOfLife"/>
+		</Unit>
+		<Unit filename="/Users/joaoespadaafonso/CLionProjects/gameOfLife/controller.h">
+			<Option target="gameOfLife"/>
+		</Unit>
+		<Unit filename="/Users/joaoespadaafonso/CLionProjects/gameOfLife/game.cpp">
+			<Option target="gameOfLife"/>
+		</Unit>
+		<Unit filename="/Users/joaoespadaafonso/CLionProjects/gameOfLife/game.h">
+			<Option target="gameOfLife"/>
+		</Unit>
+		<Unit filename="/Users/joaoespadaafonso/CLionProjects/gameOfLife/main.cpp">
+			<Option target="gameOfLife"/>
+		</Unit>
+		<Unit filename="/Users/joaoespadaafonso/CLionProjects/gameOfLife/rectangle.cpp">
+			<Option target="gameOfLife"/>
+		</Unit>
+		<Unit filename="/Users/joaoespadaafonso/CLionProjects/gameOfLife/rectangle.h">
+			<Option target="gameOfLife"/>
+		</Unit>
+		<Unit filename="/Users/joaoespadaafonso/CLionProjects/gameOfLife/renderer.cpp">
+			<Option target="gameOfLife"/>
+		</Unit>
+		<Unit filename="/Users/joaoespadaafonso/CLionProjects/gameOfLife/renderer.h">
+			<Option target="gameOfLife"/>
+		</Unit>
+		<Unit filename="/Users/joaoespadaafonso/CLionProjects/gameOfLife/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/joaoespadaafonso/CLionProjects/gameOfLife/../../../../usr/local/lib/cmake/SDL2/sdl2-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="/Users/joaoespadaafonso/CLionProjects/gameOfLife/../../../../usr/local/lib/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SDL2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

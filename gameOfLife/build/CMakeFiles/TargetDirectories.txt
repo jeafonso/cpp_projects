@@ -1,0 +1,3 @@
+/Users/joaoespadaafonso/CLionProjects/gameOfLife/build/CMakeFiles/rebuild_cache.dir
+/Users/joaoespadaafonso/CLionProjects/gameOfLife/build/CMakeFiles/edit_cache.dir
+/Users/joaoespadaafonso/CLionProjects/gameOfLife/build/CMakeFiles/gameOfLife.dir

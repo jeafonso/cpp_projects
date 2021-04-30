@@ -1,0 +1,40 @@
+Udacity CPP Capstone Project
+This project was created as part of the Udacity C++ Developer Nanodegree. The idea came through some research and the
+love for mathematics. You can find all the info that I based this project on Wikipedia.
+
+Currently in this simulation, you start with 100 live cells (rectangles) and you can request a new (random) initial set
+of live cells.
+
+This project is organized into four classes: Controller, Game, Rectangle, Renderer.
+
+    - Controller: This class is used to gather user input.
+    - Game: This class is used to put all this together. It has two methods, Constructor and Run. Constructor has a loop
+that allows the player to choose the simulation that he wants to start with. Run has an infinite loop that runs the
+simulation until the player wants it to stop.
+    - Rectangle: This class has the logic behind a single tile, that in this case, it's a SDL_Rect.
+    - Renderer: This class contains all the game logic and all the logic and actions behind que render process of the
+simulation. It has member functions to update the render, regarding all the game rules and other necessary member
+functions for the game to run.
+
+Dependencies for Running Locally
+    - cmake >= 3.7
+        All OSes: click here for installation instructions
+    - make >= 4.1 (Linux, Mac), 3.81 (Windows)
+        Linux: make is installed by default on most Linux distros
+        Mac: install Xcode command line tools to get make
+        Windows: Click here for installation instructions
+    - SDL2 >= 2.0
+        All installation instructions can be found here
+
+    Note that for Linux, an apt or apt-get installation is preferred to building from source.
+
+    - gcc/g++ >= 5.4
+        Linux: gcc / g++ is installed by default on most Linux distros
+        Mac: same deal as make - install Xcode command line tools
+        Windows: recommend using MinGW
+
+Basic Build Instructions
+    Clone this repo.
+    Make a build directory in the top level directory: mkdir build && cd build
+    Compile: cmake .. && make
+    Run it: ./gameOfLife
